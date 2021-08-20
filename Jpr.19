@@ -1,0 +1,34 @@
+package com.google;
+/*
+Author : Aayush
+code for demonstrate java methods
+* */
+
+public class JPR19 {
+
+//    method without argument and without return type
+    void greet(){
+        System.out.println("Good Morning...Have a nice day!");
+    }
+
+//    method with argument and with return type
+    int add(int a,int b){
+        return a+b;
+    }
+
+//    method without argument and with return type
+    double temperatue(){
+        return 25;
+    }
+
+//    method with argument and without return type
+    void fullName(String fName,String mName,String lName ){
+        System.out.println(fName+" "+mName+" "+lName);
+    }
+
+    // static method
+//    We can call static method using class name
+//    static method belongs to class...there is only one copy of static method
+    static void course(){
+        System.out.println("Java Programming");
+    }
